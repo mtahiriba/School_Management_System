@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="addData.AdddataController">
+   <children>
+      <ImageView fitHeight="490.0" fitWidth="870.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/main%20back.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="210.0" layoutY="464.0" text="All Rights of App Are Reserved of  Sukkur IBA University   |  2020. till date" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagefield" fitHeight="97.0" fitWidth="97.0" layoutX="87.0" layoutY="401.0" onMouseClicked="#logout_click" onMouseEntered="#logout_hover" onMouseExited="#logout_hover_remove" onMousePressed="#logout_pressed" onMouseReleased="#logout_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/logout.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="add_student_field" fitHeight="100.0" fitWidth="100.0" layoutX="155.0" layoutY="195.0" onMouseClicked="#add_student_click" onMouseEntered="#add_student_entered" onMouseExited="#add_student_Exited" onMousePressed="#add_student_pressed" onMouseReleased="#add_student_releassed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/addStudent.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="164.0" layoutY="295.0" text="Add Student">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="add_teacher_field" fitHeight="100.0" fitWidth="100.0" layoutX="388.0" layoutY="195.0" onMouseClicked="#add_teacher_click" onMouseEntered="#add_teacher_entered" onMouseExited="#add_teacher_Exited" onMousePressed="#add_teacher_pressed" onMouseReleased="#add_teacher_releassed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/addteacher.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="397.0" layoutY="295.0" text="Add Teacher">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="add_employee_field" fitHeight="100.0" fitWidth="100.0" layoutX="620.0" layoutY="195.0" onMouseClicked="#add_employee_click" onMouseEntered="#add_employee_entered" onMouseExited="#add_employee_exited" onMousePressed="#add_employee_pressed" onMouseReleased="#add_employee_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/addemployee.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="624.0" layoutY="295.0" text="Add Empoyee">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="57.0" layoutY="43.0" prefHeight="39.0" prefWidth="756.0" text="Add Data">
+         <font>
+            <Font name="Agency FB" size="47.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="Back_field" fitHeight="50.0" fitWidth="100.0" layoutX="699.0" layoutY="407.0" onMouseClicked="#Back_clicked" onMouseEntered="#Back_enetred" onMouseExited="#Back_exited" onMousePressed="#Back_pressed" onMouseReleased="#Back_releassed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../searchstudent/backbutton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="192.0" layoutX="617.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/unnamed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="200.0" layoutX="94.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/Untitled-SSX1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

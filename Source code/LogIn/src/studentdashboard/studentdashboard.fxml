@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentdashboard.StudentdashboardController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@studentback1.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="name_label" alignment="CENTER" layoutX="75.0" layoutY="23.0" prefHeight="35.0" prefWidth="442.0" text="Muhammad Tahir" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Line endX="368.0" layoutX="150.0" layoutY="57.0" startX="-73.0" stroke="WHITE" />
+      <ImageView fx:id="std_info" fitHeight="100.0" fitWidth="100.0" layoutX="110.0" layoutY="145.0" onMouseClicked="#std_info_clicked" onMouseEntered="#std_info_entered" onMouseExited="#std_info_exited" onMousePressed="#std_info_pressed" onMouseReleased="#std_info_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@addemployee.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="course_enroll" fitHeight="100.0" fitWidth="100.0" layoutX="375.0" layoutY="145.0" onMouseClicked="#course_enroll_clicked" onMouseEntered="#course_enroll_entered" onMouseExited="#course_enroll_exited" onMousePressed="#course_enroll_pressed" onMouseReleased="#course_enroll_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@addemployee.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logout_field" fitHeight="37.0" fitWidth="100.0" layoutX="248.0" layoutY="313.0" onMouseClicked="#logout_clicked" onMouseEntered="#logout_entered" onMouseExited="#logout_exited" onMousePressed="#logout_pressed" onMouseReleased="#logout_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logoutred.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="73.0" layoutY="372.0" text="All Rights of App Are Reserved of  Sukkur IBA University   |  2020. till date" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="244.0" text="Student">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="375.0" layoutY="244.0" text="Course">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="258.0" text="Information">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="420.0" layoutY="258.0" text="Enrolled">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

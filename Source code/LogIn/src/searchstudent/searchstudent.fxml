@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="490.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="searchstudent.SearstudentController">
+   <children>
+      <ImageView fitHeight="490.0" fitWidth="870.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@main%20back.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logout_field" fitHeight="37.0" fitWidth="100.0" layoutX="92.0" layoutY="397.0" onMouseClicked="#logout_clicked" onMouseEntered="#logout_entered" onMouseExited="#logout_exited" onMousePressed="#logout_pressed" onMouseReleased="#logout_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logout.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="search_roll_number_field" fitHeight="100.0" fitWidth="100.0" layoutX="185.0" layoutY="195.0" onMouseClicked="#search_roll_number_clicked" onMouseEntered="#search_roll_number_entered" onMouseExited="#search_roll_number_exited" onMousePressed="#search_roll_number_pressed" onMouseReleased="#search_roll_number_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@searchstudentname.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="search_name_field" fitHeight="100.0" fitWidth="100.0" layoutX="385.0" layoutY="195.0" onMouseClicked="#search_name_clicked" onMouseEntered="#search_name_entered" onMouseExited="#search_name_exited" onMousePressed="#search_name_pressed" onMouseReleased="#search_name_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@searchstudentroll.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="search_class_field" fitHeight="100.0" fitWidth="100.0" layoutX="585.0" layoutY="195.0" onMouseClicked="#search_class_clicked" onMouseEntered="#search_class_entered" onMouseExited="#search_class_exited" onMousePressed="#search_class_pressed" onMouseReleased="#search_class_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@searchstudentclass.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Back_field" fitHeight="50.0" fitWidth="100.0" layoutX="689.0" layoutY="397.0" onMouseClicked="#Back_clicked" onMouseEntered="#Back_enetred" onMouseExited="#Back_exited" onMousePressed="#Back_pressed" onMouseReleased="#Back_releassed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backbutton.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="57.0" layoutY="44.0" prefHeight="57.0" prefWidth="756.0" text="Search Student">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="186.0" layoutY="295.0" text="Search by Roll ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="295.0" text="Search BY Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="584.0" layoutY="295.0" text="Search By Class">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="313.0" text="Number">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="41.0" fitWidth="192.0" layoutX="617.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/unnamed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="200.0" layoutX="64.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/Untitled-SSX1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

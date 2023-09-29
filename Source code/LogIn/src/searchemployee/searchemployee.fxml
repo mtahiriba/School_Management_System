@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="490.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="searchemployee.SearchemployeeController">
+   <children>
+      <ImageView fx:id="search_work_field" fitHeight="490.0" fitWidth="870.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@main%20back.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logout_field" fitHeight="37.0" fitWidth="100.0" layoutX="87.0" layoutY="401.0" onMouseClicked="#logout_clicked" onMouseEntered="#logout_entered" onMouseExited="#logout_exited" onMousePressed="#logout_pressed" onMouseReleased="#logout_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logout.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back_field" fitHeight="50.0" fitWidth="100.0" layoutX="689.0" layoutY="397.0" onMouseClicked="#back_clicked" onMouseEntered="#back_entered" onMouseExited="#back_exited" onMousePressed="#back_pressed" onMouseReleased="#back_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backbutton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="search_name_field" fitHeight="100.0" fitWidth="100.0" layoutX="261.0" layoutY="195.0" onMouseClicked="#search_name_clicked" onMouseEntered="#search_name_entered" onMouseExited="#search_name_exited" onMousePressed="#search_name_pressed" onMouseReleased="#search_name_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@searchemployeename.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="search_work_field" fitHeight="100.0" fitWidth="100.0" layoutX="515.0" layoutY="195.0" onMouseClicked="#search_work_clicked" onMouseEntered="#search_work_entered" onMouseExited="#search_work_exited" onMousePressed="#search_work_pessed" onMouseReleased="#search_work_released" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@searchemployeework.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="57.0" layoutY="44.0" prefHeight="57.0" prefWidth="756.0" text="Search Employee">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="258.0" layoutY="295.0" text="Search By Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="513.0" layoutY="295.0" text="Search By Work">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="41.0" fitWidth="192.0" layoutX="617.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/unnamed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="200.0" layoutX="94.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../admin_dashboard/Untitled-SSX1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
